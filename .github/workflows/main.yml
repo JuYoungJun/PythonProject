@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script
-      run: python spotify_script.py
+      run: python script.py
 
     - name: Upload outputs
       uses: actions/upload-artifact@v3
